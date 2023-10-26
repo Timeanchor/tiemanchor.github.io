@@ -3,9 +3,48 @@
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    margin:5px;
 }
 .features-page{
     padding:30px;
+}
+
+.features-desc{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+}
+.featext-container{
+    width: 470px;
+    text-align:center;
+    display:none;
+}
+.header-container{
+    width: 482px;
+}
+.button-container{
+    width: 482px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.see-more{
+    background-color: transparent;
+    border: 1px solid #9340ff;
+    color: #9340ff;
+    border-radius: 5px;
+    font-size:20px;
+    padding:8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+
+.see-more:hover{
+    color:white;
+    background-color: #9340ff;
+    transition-duration: 0.7s;
 }
 
 .home-header {
@@ -17,6 +56,10 @@
 
 .home-page {
     padding: 30px;
+}
+
+.capsule-photo{
+    
 }
 
 body{
