@@ -82,3 +82,53 @@ nav {
     background-color: #6210cd;
     color: rgb(255, 255, 255);
   }
+.price-header{
+    color:#9340ff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin:5px;
+    text-align: center;
+}
+.price-subheader{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    text-align: center;
+}
+.footer {
+    background-color: #101728;
+    color: #6210cd;
+    text-align: left;
+    padding: 10px;
+  }
+  .footer-subtitle{
+    color: white;
+  }
+  .footer-logo {
+    margin-right: 10px;
+    position:absolute;
+    align-items: normal;
+  }
+  .social-icons {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.social-icon:hover {
+  color: #9340ff; 
+}
