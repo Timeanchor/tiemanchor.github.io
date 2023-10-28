@@ -113,6 +113,7 @@ body {
 }
 .features-page{
     padding:30px;
+    margin-bottom:485px;
 }
 
 .features-desc{
@@ -125,6 +126,7 @@ body {
     text-align:center;
     display:none;
     margin-left:118px;
+    margin-top:71px;
 }
 .header-container{
     width:809px;
@@ -166,9 +168,6 @@ body {
     padding: 30px;
 }
 
-.capsule-photo{
-    
-}
 
 body{
     background-color:#101728;
@@ -330,4 +329,15 @@ nav a:hover {
   position: absolute;
   left:968px;
   top:427px;
+}
+
+
+.next-pagelink{
+  color :#9340ff;
+  text-decoration: none;
+}
+
+.next-pagelink:hover{
+  text-decoration: underline;
+  transition-duration: 0.7s;
 }
