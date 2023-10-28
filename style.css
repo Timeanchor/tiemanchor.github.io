@@ -106,40 +106,46 @@ body {
 
 .features-header{
     color:#9340ff;
-    font-size: 50px;
+    font-size: 80px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     margin:5px;
 }
 .features-page{
     padding:30px;
+    margin-bottom:485px;
 }
 
 .features-desc{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size:15px;
+    font-size:25px;
 }
 .featext-container{
-    width: 470px;
+    width: 553px;
     text-align:center;
     display:none;
+    margin-left:118px;
+    margin-top:71px;
 }
 .header-container{
-    width: 482px;
+    width:809px;
+    margin-top:77px;
+    margin-left:60px;
 }
 .button-container{
     width: 482px;
     text-align: center;
-    margin-top:50px;
-    margin-bottom:30px;
+    margin-top:81px;
+    margin-left:152px;
+    margin-bottom:48px;
 }
 .see-more{
     background-color: transparent;
     border: 1px solid #9340ff;
     color: #9340ff;
     border-radius: 5px;
-    font-size:20px;
+    font-size:40px;
     padding:8px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -162,9 +168,6 @@ body {
     padding: 30px;
 }
 
-.capsule-photo{
-    
-}
 
 body{
     background-color:#101728;
@@ -313,4 +316,28 @@ nav a:hover {
     color: #10224e;
 }
 
+#timecapsulePhoto{
+  height:557px;
+  width:570px;
+  position: absolute;
+  left:1153px;
+}
 
+#timecapsulePhoto2{
+  height:471px;
+  width:509px;
+  position: absolute;
+  left:968px;
+  top:427px;
+}
+
+
+.next-pagelink{
+  color :#9340ff;
+  text-decoration: none;
+}
+
+.next-pagelink:hover{
+  text-decoration: underline;
+  transition-duration: 0.7s;
+}

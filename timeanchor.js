@@ -1,4 +1,4 @@
-function showText(){
-    var feaText=document.getElementById("featureText");
+function showText(divId){
+    var feaText=document.getElementById(divId);
     feaText.style.display="block";
 }
