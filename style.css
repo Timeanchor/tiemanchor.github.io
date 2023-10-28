@@ -317,4 +317,17 @@ nav a:hover {
     color: #10224e;
 }
 
+#timecapsulePhoto{
+  height:557px;
+  width:570px;
+  position: absolute;
+  left:1153px;
+}
 
+#timecapsulePhoto2{
+  height:471px;
+  width:509px;
+  position: absolute;
+  left:968px;
+  top:427px;
+}
