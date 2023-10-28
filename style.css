@@ -76,6 +76,9 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   }
 
   nav a:hover {
@@ -130,9 +133,81 @@ nav {
 }
 
 .social-icon:hover {
-  color: #9340ff; 
+  color: #39126c; 
 }
 .social-icon:hover img {
   transform: scale(1.2);
   transition: all 0.3s ease-in-out;
 }
+.c1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iphone {
+  width: 32%;
+  height: auto;
+  float: left;
+  transition: all 0.3s ease-in-out;
+}
+.iphone:hover {
+  opacity: 0.6;
+}
+
+.Appstores {
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.Appstores img {
+  position: static;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.001s ease-in-out;
+}
+
+.samsung {
+  padding-bottom: 6px;
+  width: 30%;
+  height: auto;
+  float: left;
+  transition: all 0.3s ease-in-out;
+}
+.samsung:hover {
+  opacity: 0.6;
+}
+.Appstores:hover .sw {
+  opacity: 0;
+}
+
+.Appstores:hover .sb {
+  opacity: 1;
+}
+
+.Appstores {
+  position: relative;
+  width: 30%;
+  height: auto;
+}
+
+.Appstores img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.Appstores .sw {
+  opacity: 1;
+}
+
+.Appstores .sb {
+  opacity: 0;
+}
+.price-body{
+    color: #10224e;
+}
+
+
