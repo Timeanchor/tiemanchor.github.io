@@ -4,134 +4,8 @@
 <head>
   <script src="timeanchor.js"></script>
   <title>Home</title>
-  <style>
-    
-    .home-header {
-      color: #9340ff;
-      font-size: 50px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bolder;
-      margin: 5px;
-    }
-    .home-subtitle {
-      font-size: 25px;
-      color: #fff;
-      margin: 5px 0;
-    }
-    .home-page {
-      flex: 1;
-      display: flex;
-      flex-direction: row; 
-      align-items: center;
-    }
-    .home-logo {
-      margin-right: 10px;
-      position: relative;
-      align-items: center;
-    }
-    .logo-name{
-      color: #773ac7;
-      font-size: 20px;
-      font-family:Georgia, serif;;
-
-    }
-    .login-signup-button {
-      background-color: #9340ff;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 50%;
-      font-family: 'Segoe UI', Tahoma;
-      font-weight: bold;
-      text-decoration: none;
-      position: absolute;
-      top: 20px;
-      right: 20px; 
-    }
-    .login-signup-button:hover {
-      background-color: #6210cd;
-    }
-    .Learn-more {
-      background-color: #562696;
-      border: none;
-      border-radius: 50%;
-      padding: 10px;
-      width: 60px; 
-      color: white;
-      text-align: center;
-      margin-top: 20px; 
-    }
-    body {
-      background-color: #101728;
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    nav {
-      background-color: #101728;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      padding: 10px 20px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    nav a:hover {
-      background-color: #6210cd;
-    }
-    .background-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover; 
-      z-index: -1; 
-    }
-    .footer {
-      background-color: #101728;
-      color: #6210cd;
-      text-align: left;
-      padding: 10px;
-    }
-    .footer-subtitle{
-      color: white;
-    }
-    .footer-logo {
-      margin-right: 10px;
-      position:absolute;
-      align-items: normal;
-    }
-    .social-icons {
-    margin-top: 20px;
-    text-align: left;
-  }
-
-  .social-icon {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .social-icon img {
-    width: 20px;
-    height: 20px;
-    vertical-align: bottom;
-  }
-
-  .social-icon:hover {
-    color: #9340ff; 
-  }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <nav>
-    
     <a href="index.html">Home</a>
     <a href="features.html">Features</a>
     <a href="price.html">Price</a>
@@ -139,8 +13,6 @@
     <img class="home-logo" src="photos/logo.png">
     <h1 class="logo-name">TimeAnchor</h1>
   </nav>
-  
-
 </head>
 
 <body>
@@ -156,12 +28,7 @@
       <a class="Learn-more" href="features.html">Learn more</a>
     </div>
 
-    <video autoplay loop muted playsinline class="background-video">
-      <source src="photos/bg-video.mp4" type="video/mp4">
-    </video>
-    
   </div>
-
   <footer class="footer">
     <img class="footer-logo" src="photos/logo.png">
     <h1 class="logo-name">TimeAnchor</h1>
@@ -174,9 +41,6 @@
       <a href="#" class="social-icon"><img src="photos/telegram.png" alt="Telegram"></a>
     </div>
   </footer>
-  
-  </footer>
-
 </body>
 
 </html>
