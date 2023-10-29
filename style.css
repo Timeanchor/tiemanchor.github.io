@@ -67,22 +67,6 @@ body {
     flex-direction: column;
     justify-content: normal;
 }
-nav {
-    background-color: #101728;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-.nav a:hover {
-    background-color: #6210cd;
-}
-
 .footer {
     background-color: #101728;
     color: #6210cd;
@@ -188,8 +172,8 @@ body{
 nav {
     background-color: #101728;
     overflow: hidden;
-  }
-  nav a {
+ }
+nav a {
     float: left;
     display: block;
     color: white;
@@ -198,13 +182,12 @@ nav {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  }
-
-  nav a:hover {
+nav a:hover {
     background-color: #6210cd;
     color: rgb(255, 255, 255);
-  }
+}
 .price-header{
     color:#9340ff;
     font-size: 50px;
