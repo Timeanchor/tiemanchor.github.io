@@ -1,0 +1,27 @@
+Overall look and feel of TimeAnchor
+
+The website should have a futuristic and clean feel. The website should feel smooth for the user.
+Any harsh animations or movements will be avoided.
+
+Colours
+========
+Our colours have to convey our futuristic feel to the user so these will be the colours:
+
+#9340ff
+#FFFFFF
+#101728
+
+Typography
+==========
+
+Montserrat from google fonts
+
+Links
+======
+All links will not be underlined at first but will be coloured to let the user know it's a link. When
+the user hovers over the link it will then underline.
+
+Buttons
+=======
+The buttons will make use of the colours above. They will have a "transparent" background with an outline. When they are hovered over, they will fill with another colour. They will be flat and have a clean minimal feel.
+
