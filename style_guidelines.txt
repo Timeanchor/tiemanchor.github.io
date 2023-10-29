@@ -23,5 +23,6 @@ the user hovers over the link it will then underline.
 
 Buttons
 =======
-The buttons will make use of the colours above. They will have a "transparent" background with an outline. When they are hovered over, they will fill with another colour. They will be flat and have a clean minimal feel.
+The buttons will make use of the colours above. They will have a "transparent" background with an outline. 
+When they are hovered over, they will fill with another colour. They will be flat and have a clean minimal feel.
 
