@@ -14,7 +14,7 @@ Our colours have to convey our futuristic feel to the user so these will be the 
 Typography
 ==========
 
-Montserrat from google fonts
+Montserrat from Google fonts
 
 Links
 ======
