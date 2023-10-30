@@ -8,3 +8,14 @@ function showText(divId) {
     document.getElementById(divId + "-button").textContent = "See More";
   }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  setTimeout(function() {
+    var header = document.querySelector(".home-header");
+    var subtitle = document.querySelector(".home-subtitle");
+
+    header.classList.add("visible");
+    subtitle.classList.add("visible");
+  }, 500);
+});
