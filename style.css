@@ -354,3 +354,11 @@ transition-duration: 0.7s;
 .test{
   opacity: 1;
 }
+
+#person{
+height:400px;
+width:400px;
+position: absolute;
+left:968px;
+top:427px;
+}
