@@ -351,6 +351,10 @@ transition-duration: 0.7s;
   opacity: 1;
 }
 
+.test{
+  opacity: 1;
+}
+
 #person{
 height:400px;
 width:400px;
