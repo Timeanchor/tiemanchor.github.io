@@ -1,84 +1,364 @@
+.home-header {
+  color: #9340ff;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin: 5px;
+}
+.home-subtitle {
+  font-size: 25px;
+  color: #fff;
+  margin: 5px 0;
+}
+.home-page {
+  flex: 1;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  background-image: url("photos/bg-image.jpg"); 
+  background-size: cover; 
+  background-position: center; 
+}
+.home-logo {
+  margin-right: 10px;
+  position: relative;
+  align-items: center;
+}
+.logo-name{
+  color: #773ac7;
+  font-size: 20px;
+  font-family:Georgia, serif;;
+
+}
+.login-signup-button {
+  background-color: #9340ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  right: 20px; 
+}
+.login-signup-button:hover {
+  background-color: #6210cd;
+}
+.Learn-more {
+  background-color: #562696;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  width: 60px; 
+  color: white;
+  text-align: center; 
+  text-decoration: none;
+  left: 20px;
+}
+body {
+  background-color: #101728;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+}
+.footer {
+  background-color: #101728;
+  color: #6210cd;
+  text-align: left;
+  padding: 10px 20px;
+}
+.footer-subtitle{
+  color: white;
+}
+.footer-logo {
+  margin-right: 10px;
+  position:absolute;
+  align-items: normal;
+}
+.social-icons {
+margin-top: 20px;
+text-align: left;
+}
+
+.social-icon {
+display: inline-block;
+margin: 0 10px;
+font-size: 24px;
+color: #fff;
+text-decoration: none;
+}
+
+.social-icon img {
+width: 20px;
+height: 20px;
+vertical-align: bottom;
+}
+
+.social-icon:hover {
+color: #9340ff; 
+}
+
 .features-header{
-    color:#9340ff;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    margin:5px;
+  color:#9340ff;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin:5px;
 }
 .features-page{
-    padding:30px;
+  padding:30px;
+  margin-bottom:485px;
 }
 
 .features-desc{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:15px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
 }
 .featext-container{
-    width: 470px;
-    text-align:center;
-    display:none;
+  width: 553px;
+  text-align:center;
+  display:none;
+  margin-left:118px;
+  margin-top:71px;
 }
 .header-container{
-    width: 482px;
+  width:900px;
+  margin-top:77px;
+  margin-left:60px;
 }
 .button-container{
-    width: 482px;
-    text-align: center;
-    margin-top:50px;
-    margin-bottom:30px;
+  width: 482px;
+  text-align: center;
+  margin-top:81px;
+  margin-left:152px;
+  margin-bottom:48px;
 }
 .see-more{
-    background-color: transparent;
-    border: 1px solid #9340ff;
-    color: #9340ff;
-    border-radius: 5px;
-    font-size:20px;
-    padding:8px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    cursor:pointer;
-    
+  background-color: transparent;
+  border: 1px solid #9340ff;
+  color: #9340ff;
+  border-radius: 5px;
+  font-size:40px;
+  padding:8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  cursor:pointer;   
 }
-
 .see-more:hover{
-    color:white;
-    background-color: #9340ff;
-    transition-duration: 0.7s;
+  color:white;
+  background-color: #9340ff;
+  transition-duration: 0.7s;
 }
 
 .home-header {
-    color: #9340ff;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
 }
 
 .home-page {
-    padding: 30px;
+  padding: 30px;
 }
 
-.capsule-photo{
-    
-}
 
 body{
-    background-color:#101728;
+  background-color:#101728;
 }
 nav {
-    background-color: #333;
-    overflow: hidden;
-  }
-  nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+  background-color: #101728;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  nav a:hover {
-    background-color: #6210cd;
-    color: rgb(255, 255, 255);
-  }
+nav a:hover {
+  background-color: #6210cd;
+  color: rgb(255, 255, 255);
+}
+.price-header{
+  color:#9340ff;
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin:5px;
+  text-align: center;
+}
+.price-subheader{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:15px;
+  text-align: center;
+}
+.footer {
+  background-color: #101728;
+  color: #6210cd;
+  text-align: left;
+  padding: 10px;
+}
+.footer-subtitle{
+  color: white;
+}
+.footer-logo {
+  margin-right: 10px;
+  position:absolute;
+  align-items: normal;
+}
+.social-icons {
+margin-top: 20px;
+text-align: left;
+}
+
+.social-icon {
+display: inline-block;
+margin: 0 10px;
+font-size: 24px;
+color: #fff;
+text-decoration: none;
+}
+
+.social-icon img {
+width: 20px;
+height: 20px;
+vertical-align: bottom;
+}
+
+.social-icon:hover {
+color: #39126c; 
+}
+.social-icon:hover img {
+transform: scale(1.2);
+transition: all 0.3s ease-in-out;
+}
+.c1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.iphone {
+width: 32%;
+height: auto;
+float: left;
+transition: all 0.3s ease-in-out;
+}
+.iphone:hover {
+opacity: 0.6;
+}
+
+.Appstores {
+width: 30%;
+height: auto;
+float: left;
+}
+
+.Appstores img {
+position: static;
+width: 100%;
+height: auto;
+transition: opacity 0.001s ease-in-out;
+}
+
+.samsung {
+padding-bottom: 6px;
+width: 30%;
+height: auto;
+float: left;
+transition: all 0.3s ease-in-out;
+}
+.samsung:hover {
+opacity: 0.6;
+}
+.Appstores:hover .sw {
+opacity: 0;
+}
+
+.Appstores:hover .sb {
+opacity: 1;
+}
+
+.Appstores {
+position: relative;
+width: 30%;
+height: auto;
+}
+
+.Appstores img {
+position: absolute;
+width: 100%;
+height: auto;
+transition: opacity 0.5s ease-in-out;
+}
+
+.Appstores .sw {
+opacity: 1;
+}
+
+.Appstores .sb {
+opacity: 0;
+}
+.price-body{
+  color: #10224e;
+}
+
+#timecapsulePhoto{
+height:557px;
+width:570px;
+position: absolute;
+left:1153px;
+}
+
+#timecapsulePhoto2{
+height:471px;
+width:509px;
+position: absolute;
+left:968px;
+top:427px;
+}
+
+
+.next-pagelink{
+color :#9340ff;
+text-decoration: none;
+}
+
+.next-pagelink:hover{
+text-decoration: underline;
+transition-duration: 0.7s;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+.test{
+  opacity: 1;
+}
+
+#person{
+height:400px;
+width:400px;
+position: absolute;
+left:968px;
+top:427px;
+}
