@@ -28,8 +28,8 @@
 
     <div class="featext-container" id="capsuleText">
       <p class="features-desc">A photo, video, voice message or plain text. 
-        To create a time capsule, upload one of these in the create drop-box. 
-        Now it’s ready to be shared with <a href="#ar-page" class="next-pagelink">Augmented Reality</a>.
+        To create a time capsule, upload one of these in the create drop-box.
+        View these capsules within our very own <a href="javascript:void(0);" onclick="scrollToElement('timeline-page')" class="next-pagelink">Timeline</a>. 
       </p>
     </div>
 
@@ -37,53 +37,6 @@
       <button id = "capsuleText-button" class="see-more" onclick="showText('capsuleText')">See More</button>
     </div>
   
-  </div>
-
-  <div id="ar-page" class="features-page">   
-
-    <img id="timecapsulePhoto" src="photos/augmentedreality.webp">
-    <img id="timecapsulePhoto2" src="photos/timecapsule.jpg">
-    <div class="header-container">
-      <h1 class="features-header">Augmented Reality.</h1>
-      <h1 class="features-header">Imagination Meets Reality.</h1>
-    </div>
-
-    
-    <div class="featext-container" id="arText">
-      <p class="features-desc">A photo, video, voice message or plain text. 
-        To create a time capsule, upload one of these in the create drop-box. 
-        Now it’s ready to be shared with Augmented Reality (link to AR page).
-      </p>
-    </div>
-
-    <div class="button-container">
-      <button id = "arText-button" class="see-more" onclick="showText('arText')">See More</button>
-    </div>
-
-
-  </div>
-
-  <div id="privacy-page" class="features-page">   
-
-    <img id="timecapsulePhoto" src="photos/privacy.jpg">
-    <img id="timecapsulePhoto2" src="photos/timecapsule.jpg">
-    <div class="header-container">
-      <h1 class="features-header">Your privacy.</h1>
-      <h1 class="features-header">Control who see's what.</h1>
-    </div>
-
-    
-    <div class="featext-container" id="privacyText">
-      <p class="features-desc">You can modify your privacy in the settings tab. 
-        Control who see's your time capsules. Control what you see on your timeline.
-      </p>
-    </div>
-
-    <div class="button-container">
-      <button id="privacyText-button" class="see-more" onclick="showText('privacyText')">See More</button>
-    </div>
-
-
   </div>
 
   <div id="timeline-page" class="features-page">   
@@ -99,12 +52,38 @@
     <div class="featext-container" id="timelineText">
       <p class="features-desc">See time capsules from all over the world from home. 
         Modify your feed to your liking. View your own timeline dating
-        back to your first Time Capsule.
+        back to your first Time Capsule. Now it's ready to be shared with <a href="javascript:void(0);" onclick="scrollToElement('ar-page')" class="next-pagelink">Augmented Reality</a>.
       </p>
     </div>
 
     <div class="button-container">
-      <button id="timelineText-button" class="see-more" onclick="showText('timelineText')">See More</button>
+      <button id = "arText-button" class="see-more" onclick="showText('arText')">See More</button>
+      <button class="see-more" onclick="scrollToTop()">Back to Top</button>
+    </div>
+
+
+  </div>
+
+  <div id="ar-page" class="features-page">   
+
+    <img id="timecapsulePhoto" src="DailyChallenges.webp">
+    
+    <div class="header-container">
+      <h1 class="features-header">Augmented Reality.</h1>
+      <h1 class="features-header">Imagination Meets Reality.</h1>
+    </div>
+
+    
+    <div class="featext-container" id="arText">
+      <p class="features-desc">A photo, video, voice message or plain text. 
+        To create a time capsule, upload one of these in the create drop-box. 
+        Explore all these features with friends in our <a href="javascript:void(0);" onclick="scrollToElement('messaging-page')" class="next-pagelink">messaging system</a>.
+      </p>
+    </div>
+
+    <div class="button-container">
+      <button id="privacyText-button" class="see-more" onclick="showText('privacyText')">See More</button>
+      <button class="see-more" onclick="scrollToTop()">Back to Top</button>
     </div>
 
 
@@ -112,7 +91,7 @@
 
   <div id="messaging-page" class="features-page">   
 
-    <img id="timecapsulePhoto" src="photos/messaging.webp">
+    <img id="timecapsulePhoto" src="Messaging.webp">
       
     <div class="header-container">
       <h1 class="features-header">Messaging.</h1>
@@ -124,12 +103,38 @@
       <p class="features-desc">Discover the memories of others by easily sharing and discussing their time capsules. 
         Engage in conversations, reactions, and reflections, fostering a community that thrives on shared experiences. 
         With each shared TimeCapsule, open a window into someone else's world and 
-        build connections that transcend time and space.
+        build connections that transcend time and space. 
+        Modify these features for your <a href="javascript:void(0);" onclick="scrollToElement('privacy-page')" class="next-pagelink">privacy</a>.
       </p>
+    </div>
+
+    <div class="button-container">
+      <button id="timelineText-button" class="see-more" onclick="showText('timelineText')">See More</button>
+      <button class="see-more" onclick="scrollToTop()">Back to Top</button>
+    </div>
+
+
+  </div>
+
+  <div id="privacy-page" class="features-page">   
+
+      <img id="timecapsulePhoto" src="privacy.jpg">
+      
+      <div class="header-container">
+        <h1 class="features-header">Your privacy.</h1>
+        <h1 class="features-header">Control who see's what.</h1>
+      </div>
+  
+      
+      <div class="featext-container" id="privacyText">
+        <p class="features-desc">You can modify your privacy in the settings tab. 
+          Control who see's your time capsules. Control what you see on your timeline.
+        </p>
     </div>
   
     <div class="button-container">
       <button id="messagingText-button" class="see-more" onclick="showText('messagingText')">See More</button>
+      <button class="see-more" onclick="scrollToTop()">Back to Top</button>
     </div>
 
 
