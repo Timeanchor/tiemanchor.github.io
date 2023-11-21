@@ -30,27 +30,9 @@
   font-family:Georgia, serif;;
 
 }
-.login-signup-button {
-  background-color: #562696;
-  color: white;
-  border: 2px solid #010001;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  position: absolute;
-  top: 20px;
-  right: 20px; 
-  transition: background-color 0.4s ease-in-out;
-}
-.login-signup-button:hover {
-  background-color: #6210cd;
-  transition-duration: 0.4s ease-in-out;
-}
 .Learn-more {
   background-color: #562696;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: 2px solid #010001;
   border-radius: 10px;
   padding: 20px;
@@ -64,6 +46,7 @@
 .Learn-more:hover {
   background-color: #6210cd;
   transition-duration: 0.2s ease-in-out;
+  box-shadow: 0 0 10px #6210cd, 0 0 40px #6210cd, 0 0 80px #6210cd;
 }
 body {
   background-color: #101728;
