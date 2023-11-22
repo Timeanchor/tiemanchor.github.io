@@ -347,8 +347,48 @@ transition-duration: 0.7s;
 
 #person{
 height:400px;
-width:400px;
+width:600px;
 position: absolute;
-left:968px;
-top:427px;
+left:100px;
+top:190px;
+}
+
+#william{
+  height:300px;
+  width:300px;
+  position:relative;
+  left:100px;
+  top:400px;
+}
+
+#jorge{
+  height:300px;
+  width:300px;
+  position:relative;
+  left:550px;
+  top:-800px;
+}
+
+#jomi{
+  height:300px;
+  width:300px;
+  position:relative;
+  left:1000px;
+  top:-500px;
+}
+
+#abdul{
+  height:300px;
+  width:300px;
+  position:relative;
+  left:100px;
+  top:400px;
+}
+
+#joseph{
+  height:300px;
+  width:300px;
+  position:relative;
+  left:550px;
+  top:700px;
 }
