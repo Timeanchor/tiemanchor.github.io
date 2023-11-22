@@ -327,7 +327,7 @@ opacity: 0;
 height:557px;
 width:570px;
 position: absolute;
-left:1153px;
+left:898px;
 }
 
 #timecapsulePhoto2{
@@ -408,4 +408,12 @@ top:190px;
   position:relative;
   left:550px;
   top:700px;
+}
+
+#julien{
+  height:300px;
+  width:300px;
+  position:relative;
+  left:1000px;
+  top:1100px;
 }
