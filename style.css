@@ -415,5 +415,11 @@ top:190px;
   width:300px;
   position:relative;
   left:1000px;
-  top:1100px;
+  top:-500px;
+}
+
+.about-style{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
 }
