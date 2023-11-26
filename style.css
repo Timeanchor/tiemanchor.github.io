@@ -1,10 +1,4 @@
-.home-header {
-  color: #9340ff;
-  font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  margin: 5px;
-}
+
 .home-subtitle {
   font-size: 25px;
   color: #fff;
@@ -15,39 +9,41 @@
   display: flex;
   flex-direction: row; 
   align-items: center;
-  background-image: url("photos/bg-image.jpg"); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("photos/bg-image.jpg");
   background-size: cover; 
   background-position: center; 
 }
+
 .home-logo {
   margin-right: 10px;
   position: relative;
-  align-items: center;
+  margin-top: 6px;
 }
 .logo-name{
   color: #773ac7;
   font-size: 20px;
-  font-family:Georgia, serif;;
 
 }
-.Learn-more {
-  background-color: #562696;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border: 2px solid #010001;
-  border-radius: 10px;
-  padding: 20px;
-  width: 60px; 
-  color: white;
-  text-align: center; 
+
+.learn-more{
+  background-color: transparent;
+  border: 1px solid #9340ff;
+  color: #9340ff;
+  border-radius: 5px;
+  font-size:40px;
+  padding:8px;
+  font-weight: bold;
+  cursor:pointer;   
   text-decoration: none;
-  left: 20px;
-  transition: background-color 0.4s ease-in-out;
 }
-.Learn-more:hover {
-  background-color: #6210cd;
-  transition-duration: 0.2s ease-in-out;
-  box-shadow: 0 0 10px #6210cd, 0 0 40px #6210cd, 0 0 80px #6210cd;
+
+.learn-more:hover{
+  color:white;
+  background-color: #9340ff;
+  transition-duration: 0.7s;
 }
+
 body {
   background-color: #101728;
   margin: 0;
@@ -56,6 +52,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .footer {
   background-color: #101728;
@@ -65,6 +63,7 @@ body {
 }
 .footer-subtitle{
   color: white;
+  margin-left: 10px;
 }
 .footer-logo {
   margin-right: 10px;
@@ -97,7 +96,6 @@ color: #9340ff;
 .features-header{
   color:#9340ff;
   font-size: 80px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   margin:5px;
 }
@@ -108,7 +106,6 @@ color: #9340ff;
 
 .features-desc{
   color: white;
-  font-family: 'Montserrat', sans-serif;
   font-size:25px;
 }
 .featext-container{
@@ -137,7 +134,6 @@ color: #9340ff;
   border-radius: 5px;
   font-size:40px;
   padding:8px;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   cursor:pointer;   
 }
@@ -149,9 +145,10 @@ color: #9340ff;
 
 .home-header {
   color: #ffffff;
-  font-size: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
   font-weight: bolder;
+  margin: 5px;
+  margin-left: 128px;
 }
 
 .home-page {
@@ -174,7 +171,6 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:hover {
@@ -184,14 +180,12 @@ nav a:hover {
 .price-header{
   color:#9340ff;
   font-size: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
   margin:5px;
   text-align: center;
 }
 .price-subheader{
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:15px;
   text-align: center;
 }
@@ -310,7 +304,7 @@ opacity: 0;
 height:557px;
 width:570px;
 position: absolute;
-left:898px;
+left:1089px;
 }
 
 #timecapsulePhoto2{
@@ -403,6 +397,13 @@ top:190px;
 
 .about-style{
   color: white;
-  font-family: 'Montserrat', sans-serif;
   font-size:25px;
+}
+
+
+#home-header{
+  color:#9340ff;
+  font-size: 100px;
+  font-weight: bolder;
+  margin:5px;
 }
